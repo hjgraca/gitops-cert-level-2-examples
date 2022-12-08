@@ -23,8 +23,8 @@ spec:
       syncPolicy:
         automated: {}
           selfHeal: true
-         syncOptions:
-         - CreateNamespace=true
+        syncOptions:
+        - CreateNamespace=true
       source:
         repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
         targetRevision: HEAD
